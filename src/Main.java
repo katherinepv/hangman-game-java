@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        public static String newWord = generateRandomWord();
+        GameManager gameManager = new GameManager();
+        gameManager.runGame();
+
+        HashedWord hashedWord = new HashedWord();
+        hashedWord.hashRandomWord();
+
+
     }
 }
