@@ -3,9 +3,6 @@ public class Main {
         GameManager gameManager = new GameManager();
         gameManager.runGame();
 
-        HashedWord hashedWord = new HashedWord();
-        hashedWord.hashRandomWord();
-
 
     }
 }

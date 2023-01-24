@@ -7,7 +7,7 @@ public class RandomWord {
 
         Random rand = new Random();
         String randomWord = wordsArr[rand.nextInt(wordsArr.length)];
-        System.out.println(randomWord);
+//        System.out.println(randomWord);
         return randomWord;
     }
 }

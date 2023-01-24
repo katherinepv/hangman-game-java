@@ -7,8 +7,12 @@ public class GameManager {
         System.out.println("Each incorrect guess is a life lost. You have 7 lives to begin with.");
         System.out.println("You win if you guess all letters correctly before lives up. Good Luck!");
 
-//        PlayerGuesses playerGuesses = new PlayerGuesses();
-//        playerGuesses.getPlayerGuess();
+        HashedWord hashedWord = new HashedWord();
+        hashedWord.hashRandomWord();
+
+        PlayerGuesses playerGuesses = new PlayerGuesses();
+        playerGuesses.getPlayerGuess();
+        playerGuesses.checkPlayerGuess();
 
     };
 
